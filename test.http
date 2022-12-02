@@ -1,0 +1,9 @@
+POST http://localhost:8000/ HTTP/1.1
+content-type: application/json
+
+{
+    "driver_name": "sample",
+    "car_name": "test",
+    "x_coordinate": 12,
+    "y_coordinate": 13
+}
